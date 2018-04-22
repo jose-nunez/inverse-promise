@@ -1,0 +1,31 @@
+{
+  "name": "inverse-promise",
+  "version": "0.0.1",
+  "description": "Promise that sets the callback first, and invoques it later",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine ./app/InversePromise_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-nunez/inverse-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "helpful",
+    "util",
+    "helper"
+  ],
+  "author": "Jose Nunez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jose-nunez/inverse-promise/issues"
+  },
+  "homepage": "https://github.com/jose-nunez/inverse-promise#readme",
+  "dependencies": {
+    "out-promise": "0.0.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
