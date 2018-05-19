@@ -1,6 +1,6 @@
 {
   "name": "inverse-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise that sets the callback first, and invoques it later",
   "main": "index.js",
   "scripts": {

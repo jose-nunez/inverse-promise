@@ -3,7 +3,7 @@ const OutPromise  = require('out-promise')
 
 let callback = new WeakMap()
 
-module.exports = class extends OutPromise{
+module.exports = class InversePromise extends OutPromise{
   constructor(fn){
     super()
     callback.set(this,new OutPromise())
